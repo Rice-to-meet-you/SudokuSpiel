@@ -7,7 +7,7 @@ import sudoku.controller.SudokuController;
 public class SudokuLauncher {
 	public static void main(String[] args) {
 		SudokuModel model = new SudokuModel();
-		SudokuView view = new SudokuView();
+		SudokuView view = new SudokuView(); // Initialisierung des Start-Bildschirms
 		//SudokuController controller = new SudokuController(model, view);
 		
 		
