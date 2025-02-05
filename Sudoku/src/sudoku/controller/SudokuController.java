@@ -1,5 +1,13 @@
 package sudoku.controller;
 
-public class SudokuController {
+import sudoku.model.SudokuModel;
+import sudoku.view.SudokuView;
 
+public class SudokuController {
+	public SudokuModel model;
+	public SudokuView view;
+	
+	public SudokuController(SudokuModel model, SudokuView view) {
+		
+	}
 }
